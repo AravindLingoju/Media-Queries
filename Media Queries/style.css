@@ -1,0 +1,33 @@
+body{
+    background-color: blue;
+}
+
+
+@media only screen and (min-width:500px)and (max-width:1400px){
+    body{
+        background-color: rgb(24, 175, 70);   
+    }
+    h1{
+        font-size: 5rem;
+        color: yellow;
+    }
+}
+
+
+
+
+@media only screen and (min-width:400px)and (max-width:1000px)
+{
+  body{
+    background-color: aqua;
+  }
+
+  h1{
+    font-size:2rem;
+    color: rgb(198, 104, 53);
+  }
+
+}
+
+
+

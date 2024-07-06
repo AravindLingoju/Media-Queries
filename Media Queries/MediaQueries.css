@@ -1,0 +1,59 @@
+/* body{
+    background-color: rgb(251, 6, 6);
+} */
+
+.Ex{
+    padding: 20px;
+    color: rgb(216, 4, 4);
+    font-size: 2rem;
+  }
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and(min-width: 576px){
+    body{
+        background-color: green;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+    body{
+        background-color: rgb(68, 18, 193);
+    }
+    h1{
+       font-size: 4rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+    body{
+        background-color: rgb(208, 233, 84);
+    }
+    h1{
+        font-size: 6rem;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+    body{
+        background-color: rgb(199, 25, 121);
+    }
+    h1{
+        font-size: 8rem;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px){
+    body{
+        background-color: rgb(100, 182, 223);
+    }
+    h1{
+        font-size: 10rem;
+    }
+}
